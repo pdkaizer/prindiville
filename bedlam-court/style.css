@@ -10,7 +10,7 @@ License URI: license.txt
 Tags:
 */
 
-@import url(bootstrap.min.css);
+@import url(css/bootstrap.min.css);
 
 body {
 	font-size: 18px;
@@ -19,4 +19,8 @@ body {
 .bottom {
 	text-align: center;
 	margin-bottom: 15px;
+}
+
+.social a {
+	color:#999999;
 }

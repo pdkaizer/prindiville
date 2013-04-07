@@ -8,17 +8,19 @@
  */
 ?>
 
-	</div><!-- #main -->
+  <footer class="row">
+      <div class="span8 bottom">
+          <a href="/">home</a> | <a href="/about">about</a> | <a href="/artwork">artwork</a>
+      </div>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php do_action( 'bedlam_court_credits' ); ?>
-			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'bedlam_court' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'bedlam_court' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'bedlam_court' ), 'Bedlam Court', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+      <div class="span8 bottom social">
+          <a href=""><div class="genericon genericon-linkedin-alt"></div></a> &nbsp;&nbsp; <a href=""><div class="genericon genericon-pinterest-alt"></div></a>  &nbsp;&nbsp; <a href=""><div class="genericon genericon-twitter"></div></a>  &nbsp;&nbsp; <a href=""><div class="genericon genericon-dribbble"></div></a> 
+      </div>
+
+  </footer>
+
+
+</div>
 
 <?php wp_footer(); ?>
 
