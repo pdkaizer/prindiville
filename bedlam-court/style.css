@@ -17,7 +17,7 @@ body {
 }
 
 .image {
-	margin-top: 140px;
+	margin-top: 70px;
 }
 
 .bottom {
@@ -28,6 +28,16 @@ body {
 
 .nav {
 	font-weight: 300;
+}
+
+.nav a {
+	color:#a5a5a5;
+	text-decoration: none;
+}
+
+.next a {
+	color:#a5a5a5;
+	text-decoration: none;
 }
 
 .social a {

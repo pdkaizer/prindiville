@@ -24,8 +24,8 @@ get_header(); ?>
   </div>
 
   <div class="row">
-      <div class="span8 bottom">
-          <?php previous_posts_link('&lt;') ?> | <?php the_date();?> | <?php next_posts_link('&gt;','') ?> 
+      <div class="span8 bottom next">
+        <?php previous_posts_link('&lt;') ?> | <?php the_date();?> | <?php next_posts_link('&gt;','') ?> 
       </div>
   </div>
 
